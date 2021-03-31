@@ -334,7 +334,7 @@
 		"AprilFoolsJoke": "愚人节玩笑",
 		"DefaultTownNPCName": "无名氏",
 		"DefaultTownNPCChat": "模组作者忘记给我一个聊天信息了.",
-		"DefaultNurseCantHealChat": "我也不知道为什么我无法治愈你, 模组作者忘记给我一个聊天信息了.",
+		"DefaultNurseCantHealChat": "我也不知道为什么我无法治疗你, 模组作者忘记给我一个聊天信息了.",
 
 		// Extra mouse buttons
 		"MouseMiddle": "鼠标中键",
