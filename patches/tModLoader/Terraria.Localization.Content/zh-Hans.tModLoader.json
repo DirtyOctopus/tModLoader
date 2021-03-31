@@ -1,4 +1,5 @@
 // Chinese Translations made by @Dierney.
+//Small modification by @DirtyOctopus
 {
 	"tModLoader": {
 		// Main Menu
@@ -20,7 +21,7 @@
 		"ModsDisable": "禁用",
 		"ModsEnable": "启用",
 		"ModsOpenConfig": "点击打开配置",
-		"ModOldWarning": "旧模组, 有风险",
+		"ModOldWarning": "旧模组, 有一定风险",
 		"ModDependencyClickTooltip": "该模组依赖于{0}\n(点击启用)",
 		"ModDependencyClickTooltipMore": "该模组依赖于{0}和{1}个其他模组\n(点击启用)",
 		"ModDependencyModsNotFound": "未找到下列模组: {0}",
@@ -30,7 +31,7 @@
 		"OutdatedModCantPublishError": "你无法发布基于旧版本tModLoader的模组",
 		"ModReloadRequired": "需要重新加载",
 		"ModReloadForced": "强制重新加载",
-		"ModIsServerSide": "这是一个服务器的模组",
+		"ModIsServerSide": "这是一个服务端模组",
 		"ModsByline": "作者: {0}",
 		"ModsMoreInfo": "更多信息",
 		"ModsOriginatedFromModBrowser": "该模组来源于模组浏览器",
@@ -47,7 +48,7 @@
 		"ModsXNPCs": "{0}个生物",
 		"ModsXTiles": "{0}个物块",
 		"ModsXWalls": "{0}个墙壁",
-		"ModsXBuffs": "{0}个Buff",
+		"ModsXBuffs": "{0}个增益",
 		"ModsXMounts": "{0}个坐骑",
 		"ModsReloadAndReturn": "重新加载模组并回到地图选择页面",
 		"ModsNotFoundServer": "在\"{0}\"里没有找到任何模组。\n如果你在开启一个模组服务器，你可以使用'modpath'命令行参数或配置项来设置加载的模组的路径。\n",
@@ -95,7 +96,7 @@
 		"LoadErrorResourceNotFoundPathHint": "未找到预期的资源:\n    {0}\n很可能:(是否拼写或文件夹放置错误?)\n    {1}",
 		"RuntimeErrorSilentlyCaughtException": "静默捕获异常: ",
 		"RuntimeErrorSeeLogsForFullTrace": "(请参阅 {0} 以获取完整调用堆栈)",
-		"OpenLogs": "打开日志",
+		"OpenLogs": "打开启动日志",
 		"OpenWebHelp": "打开网页帮助",
 		"SkipToMainMenu": "跳过加载模组",
 		"Retry": "重试",
@@ -104,8 +105,8 @@
 
 		// Mod Info
 		"ModInfoHeader": "模组信息: ",
-		"ModInfoVisitHomepage": "访问模组主页查看更多信息",
-		"ModInfoExtract": "提取",
+		"ModInfoVisitHomepage": "访问模组主页以查看更多信息",
+		"ModInfoExtract": "提取源文件",
 		"ModInfoNoDescriptionAvailable": "无可用描述",
 		"ModInfoProblemTryAgain": "出现问题, 请重试",
 		"ModInfoDisableModToDelete": "禁用模组以删除",
@@ -172,7 +173,7 @@
 		"MBShowMSAll": "显示全部模组",
 		"MBShowMSBoth": "只显示共同端的模组",
 		"MBShowMSClient": "只显示客户端的模组",
-		"MBShowMSServer": "只显示服务器的模组",
+		"MBShowMSServer": "只显示服务端的模组",
 		"MBShowMSNoSync": "只显示不同步的模组",
 		"MBClearSpecialFilter": "清除特殊筛选器: {0}",
 		"MBOfflineWithReason": "- 离线({0})",
@@ -286,7 +287,7 @@
 		"DMReferenceAssembliesDownload": "点击下载目标包 (不推荐)",
 		"DMVisualStudio": "Visual Studio",
 		"DMTutorialWelcome": "欢迎使用tModLoader来制作模组. 请查看Wiki以获取更多信息和教程.",
-		"DMTutorial": "教程",
+		"DMTutorial": "开发者教程",
 		"DMUpdateScripts": "更新脚本",
 		"DMScriptsRequireRestart": "启动脚本已更新, 需重新启动tModLoader.",
 		"DMUpdateMonoToDownloadModCompile": "运行最新版本的Mono时, 可以从GitHub上下载额外库.",
@@ -328,13 +329,13 @@
 		// Mod Loader Mod
 		"StartBagTooltip": "部分起始物品无法正常放入背包",
 		"StartBagItemName": "起始包",
-		"UnloadedItemItemName": "卸载物品",
-		"UnloadedItemModTooltip": "模组: {0}",
-		"UnloadedItemItemNameTooltip": "物品: {0}",
+		"UnloadedItemItemName": "已删除物品",
+		"UnloadedItemModTooltip": "来自模组: {0}",
+		"UnloadedItemItemNameTooltip": "物品名称: {0}",
 		"AprilFoolsJoke": "愚人节玩笑",
 		"DefaultTownNPCName": "无名氏",
-		"DefaultTownNPCChat": "模组作者忘记给我一个聊天信息了.",
-		"DefaultNurseCantHealChat": "我也不知道为什么我无法治愈你, 模组作者忘记给我一个聊天信息了.",
+		"DefaultTownNPCChat": "模组作者忘记给我一个聊天信息了。",
+		"DefaultNurseCantHealChat": "我也不知道为什么我无法治愈你, 模组作者忘记给我一个聊天信息了。",
 
 		// Extra mouse buttons
 		"MouseMiddle": "鼠标中键",
